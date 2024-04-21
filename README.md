@@ -1,6 +1,6 @@
 # Gas_station
-Go concurrency
-Create gas station simulation
+Go concurrency  
+Create gas station simulation  
 
 1. Cars arrive at the gas station and wait in the queue for the free station
 2. Total number of cars and their arrival time is configurable
@@ -12,3 +12,6 @@ Create gas station simulation
 8. After the car is handled (random time from register handle time range) by cast register, it leaves the station.
 9. Program collects statistics about the time spent in the queue, time spent at the station and time spent at the cash register for every car
 10. Program prints the aggregate statistics at the end of the simulation
+
+Spuštění docker image: ```docker run jiresdom/gasstation```  
+Repozitář: https://hub.docker.com/r/jiresdom/gasstation
